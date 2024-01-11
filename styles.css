@@ -1,0 +1,30 @@
+/* header realated*/
+.hny-header{
+ padding:131px;
+background-color: #c9b7bd;
+}
+
+
+
+.banner-hny{
+  background-color: #c9b7bd;
+  color: #ee4848;
+  padding:151px 0px 151px 0px;
+  text-align: center;
+  margin: 131px 150px 131px 150px;
+  height: 70%;
+  width: 80%;
+  border:5px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px 2px rgba(219, 6, 6, 0.2);
+  background-image: url("../B9A1-New-Year-New-Mission/resources/Banner\ Image.png");
+}
+.hny-greet1{
+ font-size: 48px;
+ font-weight: bold;
+ margin-bottom: 1px;
+
+}
+.hny-greet2{
+ font-size: 24px;
+}

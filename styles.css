@@ -1,6 +1,29 @@
-.banner-title{
- margin: 80px 150px 80px 150px;
- display: flex;
- align-items: center;
- background-image: ;
+.title0{
+ display: block;
+ padding: 100px 60px 100px 40px;
+
+
+}
+
+
+.img-container{
+ position:absolute;
+ list-style:none;
+ width: 1220px;
+ height: 500px;
+ border-radius: 16px;
+ margin-bottom: 1px;
+}
+
+.text-overlay{
+ position:absolute;
+ top:50%;
+ left:50%;
+ transform:translate(-50%,-50%);
+ text-align: center;
+ font-weight: bold;
+ border:4px;
+ border-color: chocolate;
+ font-size: 50px;
+ margin-top: 0px;
 }

@@ -1,3 +1,12 @@
+.body{
+margin:auto;
+width: 640%;
+padding: 50px;
+background-color: #000000;
+font-family: Inter , sans -serif;
+}
+/* banner header starting  css styles */
+.banner1{}
 .banner1-container{
 position: relative;
 width: 1320px;
@@ -27,32 +36,82 @@ font-size: 20px;
  font-size: 72px;
 } 
 
-
-.img-container2{
-position: relative;
-width: 100%;
-height: 100%;
-overflow: hidden;
-}
-.img-container2 img{
-width: 80%;
-height: 60%;
-object-fit:fill;
-}
-
-.discount-container{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: #FFFFFF;
-font-weight: 800;
-text-shadow: 2px 2px 4px #e40707;
-padding: 2px;
-text-align: center;
-}
+/* Discount section css details*/
 
 .discount{
 text-align: center;
+margin-top: 130px;
+}
+.discount-amount{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.discount-title{
+ color: #F00;
+ text-align: center;
+ font-family: Inter;
+ font-size: 24px;
+ font-weight: 500;
+ margin-bottom: 4px;
+}
+.discount-items{
+ color: #5d0ff9;
+ text-align: center;
+ font-family: Inter;
+ font-size: 48px;
+ font-style: normal;
+ font-weight: 700;
+ margin-top: 0px;
+ padding: 50px;
+}
 
+/* join now related css styles*/
+
+.join-now{
+ margin-top: 130px;
+ margin-bottom: 120px;
+
+.img-container3{
+      position: relative;
+}
+
+.party-camp{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 1320px;
+ height: 600px;
+}
+.party-title{
+ color:#FFFFFFCC;
+ font-family: Merriweather;
+ font-size: 64px;
+ font-style: normal;
+ font-weight: 900;
+ letter-spacing: 5px;
+ padding: 20px;
+}
+.party-description{
+ color: rgba(255, 255, 255, 0.80);
+ font-family: Inter;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+}
+.btn{
+ color: #e77b07;
+ background-color: #745f5f;
+ text-align: center;
+ font-family: Inter;
+ font-size: 20px;
+ font-weight: 700;
+ padding: 10px 30px;
+ border-radius: 5px;
+ text-transform: uppercase;
+}
 }

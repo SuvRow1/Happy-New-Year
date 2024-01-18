@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+      text-decoration: none;
+
+}
+
+
 .body{
 margin:auto;
-width: 640%;
-padding: 50px;
+width: 100%;
+padding: 50px 126px;
 background-color: #000000;
-font-family: Inter , sans -serif;
+font-family: "Merriweather", serif;
+font-weight: 400;
 }
 /* banner header starting  css styles */
 .banner1{}
@@ -40,7 +54,7 @@ font-size: 20px;
 
 .discount{
 text-align: center;
-margin-top: 130px;
+margin-bottom: 0px;
 }
 .discount-amount{
 color: #F00;
@@ -57,61 +71,103 @@ margin-bottom: 10px;
  font-size: 24px;
  font-weight: 500;
  margin-bottom: 4px;
+ margin-bottom: 0px;
 }
 .discount-items{
  color: #5d0ff9;
  text-align: center;
  font-family: Inter;
- font-size: 48px;
+ font-size: 38px;
  font-style: normal;
  font-weight: 700;
- margin-top: 0px;
+ margin-top: 5px;
+ 
  padding: 50px;
 }
+.img-container2{
+ margin-left: 260px;
+ margin-top: 48px;
 
+
+}
 /* join now related css styles*/
-
-.join-now{
- margin-top: 130px;
- margin-bottom: 120px;
 
 .img-container3{
       position: relative;
+      width: 1180px;
+      padding: 130px;
+      margin-top: 120px;
+      
+}
+.img-container3.btn-join{
+      background: #FFFFFF;
+      opacity: 0.8;
 }
 
 .party-camp{
- position: absolute;
- top: 50%;
- left: 50%;
+ position:absolute;
+ top: 40%;
+ left: 40%;
  transform: translate(-50%, -50%);
- width: 1320px;
- height: 600px;
+ padding: 126px;
+ text-align: center;
 }
+
+
 .party-title{
  color:#FFFFFFCC;
  font-family: Merriweather;
  font-size: 64px;
- font-style: normal;
  font-weight: 900;
- letter-spacing: 5px;
- padding: 20px;
+ letter-spacing: 5.5px;
+ padding: 37.5px;
+ margin-bottom: 10px;
+ text-align: left;
 }
+
 .party-description{
  color: rgba(255, 255, 255, 0.80);
  font-family: Inter;
  font-size: 18px;
  font-style: normal;
  font-weight: 400;
+ margin-bottom: 5px;
 }
-.btn{
- color: #e77b07;
- background-color: #745f5f;
- text-align: center;
- font-family: Inter;
- font-size: 20px;
- font-weight: 700;
- padding: 10px 30px;
- border-radius: 5px;
- text-transform: uppercase;
+
+
+     /* event-time css styles*/ 
+
+
+.event-time{
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      border-color: #5d0ff9;
+      border-width: 1px;
+      max-width: 1320px;
+      min-height: 482px;
+      font-family: Inter;
+      font-size: 42px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: capitalize;
+      border: #FFF;
+      border-color: #000000;
+      background-color:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+      padding: 126px;
+      margin-top: 120
+
 }
+.span-color{
+      color: #FF0000;
+}
+
+.btn-join1{
+    
+      background-color:#FF0000 ;
+      color: #FFFFFF;
+      margin-left: 200px;
+      font-size: 24px;
 }

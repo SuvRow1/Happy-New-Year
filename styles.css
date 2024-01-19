@@ -114,7 +114,21 @@ margin-bottom: 10px;
  font-weight: 400;
  margin-bottom: 5px;
 }
-
+.btn-join{
+    background-color:#FF0000;
+    border-radius: 10px;
+    border-width: 1px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 150px;
+    margin-top: 40px;
+    text-decoration: none;
+}
 
      /* event-time css styles*/ 
 
@@ -125,20 +139,20 @@ margin-bottom: 10px;
       align-items: center;
       justify-content: center;
       border-radius: 10px;
-      border-color: #5d0ff9;
+      flex-direction: column;
       border-width: 1px;
       max-width: 1320px;
       min-height: 482px;
       font-family: Inter;
-      font-size: 42px;
+      font-size: 22px;
       font-weight: 600;
       letter-spacing: 0.5px;
       text-transform: capitalize;
-      border: #FFF;
-      border-color: #000000;
-      background-color:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-      padding: 0;
-      margin-top: 120
+      background:linear-gradient(to bottom, #ffe2e2 50%, #ffbfbf 50%);
+      background-clip: content-box;
+      padding:0px;
+      margin-left: 150px;
+      margin-right: 150px;
 
 }
 .span-color{
@@ -163,22 +177,11 @@ font-weight: 900;
 text-transform: capitalize;
 }
 .btn-join1{
-      letter-spacing: 0.5px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      
+     
+      margin-bottom: 20px;
+      background-color: #FF0000;
+      color: #FFFFFF;
 
-
-}
-.bg-color{
-      border: 2px solid #ffdddd;
-      border-radius: 10px;
-      max-width: 1320px;
-      min-height: 472px;
-      margin-left: 160px;
-      margin-right: 150px;
-      padding: 4px;
 
 }
 
@@ -221,6 +224,8 @@ text-transform: capitalize;
     margin: 120px 150px 120px 150px;
     max-width: 1320px;
     min-height: 620px;
+    background:linear-gradient(180deg,#ffdddd,#ffdddd);
+    background-clip: content-box;
     
 
      
@@ -293,22 +298,25 @@ text-transform: capitalize;
       margin-top: 50px;
       margin-left: 150px;
       font-size: 12px;
-      color: #FFFFFF;
+      color: #ff6767;
 
 }
 
 .last-step button{
       margin-right: 50px;
-      color: #FFFFFF;
+      color: #ff7272;
+      font-weight: 600;
 }
 
 
 
 .first-part{
-      background-color:#070211;
+      background-color:#290e5e;
 }
 
 
-
+.logo{
+     
+}
 
 /* footer style ends here */

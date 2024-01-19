@@ -1,27 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
 
- *media{
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-      scroll-behavior: smooth;
-      text-decoration: none;
-
-}
-
-
-.body{
-margin:auto;
-width: 100%;
-padding: 50px 126px;
-background-color: #000000;
-font-family: "Merriweather", serif;
-font-weight: 400;
-}
 /* banner header starting  css styles */
 
-.banner1-container{
+ .banner1-container{
 position: relative;
 width: 1320px;
 height: 600px;
@@ -200,10 +181,6 @@ text-transform: capitalize;
       padding: 4px;
 
 }
-.event{
-      background-image: (180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-      background-clip: border-box;
-}
 
 /* items-container stats */
 .items-container{
@@ -235,22 +212,27 @@ text-transform: capitalize;
 /* items-container ends */
 
 
+
 /* newsletter starts here */
 .Newsletter-title{
-    border: #5d0ff9 2px solid;
+    border: #ffffff 2px solid;
     border-radius: 10px;
     border-style: groove;
-    background-image: linear-gradient(full, #080313 50%, #e3d9f7 100%);
-    background-clip: content-box;  
     margin: 120px 150px 120px 150px;
-
+    max-width: 1320px;
+    min-height: 620px;
+    
 
      
 }
 
 .Newsletter-title img{
-      margin-top:120px;
-      margin-left: 480px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 470px;
+      margin-top: 150px;
+    
 }
 .subscribe1{
       display: flex;
@@ -277,5 +259,56 @@ text-transform: capitalize;
 /* newsletter ends here */
 
 /* footer style starts here  */
+
+.second-part{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+}
+.second-part p{
+      color:#FFFFFF;
+}
+
+.icon-pic{
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+      
+
+      
+}
+
+
+.last-step{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+
+.last-step h6{
+      margin-top: 50px;
+      margin-left: 150px;
+      font-size: 12px;
+      color: #FFFFFF;
+
+}
+
+.last-step button{
+      margin-right: 50px;
+      color: #FFFFFF;
+}
+
+
+
+.first-part{
+      background-color:#070211;
+}
+
+
+
 
 /* footer style ends here */

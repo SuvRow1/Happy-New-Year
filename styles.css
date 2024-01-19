@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
 
-*{
+ *media{
       padding: 0;
       margin: 0;
       box-sizing: border-box;
@@ -20,7 +20,7 @@ font-family: "Merriweather", serif;
 font-weight: 400;
 }
 /* banner header starting  css styles */
-.banner1{}
+
 .banner1-container{
 position: relative;
 width: 1320px;
@@ -156,18 +156,126 @@ margin-bottom: 10px;
       border: #FFF;
       border-color: #000000;
       background-color:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-      padding: 126px;
+      padding: 0;
       margin-top: 120
 
 }
 .span-color{
       color: #FF0000;
 }
+.text{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+      flex-flow: column wrap;
+      margin-top: 150px;
+      margin-bottom: 2px;
+      font-size: 28px;
+      padding: 0px;
 
-.btn-join1{
-    
-      background-color:#FF0000 ;
-      color: #FFFFFF;
-      margin-left: 200px;
-      font-size: 24px;
+
 }
+.title1{
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.btn-join1{
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
+
+}
+.bg-color{
+      border: 2px solid #ffdddd;
+      border-radius: 10px;
+      max-width: 1320px;
+      min-height: 472px;
+      margin-left: 160px;
+      margin-right: 150px;
+      padding: 4px;
+
+}
+.event{
+      background-image: (180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+      background-clip: border-box;
+}
+
+/* items-container stats */
+.items-container{
+      display: flex;
+      flex-direction: column;
+      flex-flow: wrap;
+      gap: 20px 20px;
+      margin-top: 30px;
+      margin-left: 10px;
+}
+
+.products{
+      margin-top: 50px;
+}
+
+
+.text1{
+      margin-left: 20px;
+      font-size: 28px;
+      padding: 5px;
+      margin-bottom: 0px;
+      margin-top: 120px;
+      
+}
+
+
+
+
+/* items-container ends */
+
+
+/* newsletter starts here */
+.Newsletter-title{
+    border: #5d0ff9 2px solid;
+    border-radius: 10px;
+    border-style: groove;
+    background-image: linear-gradient(full, #080313 50%, #e3d9f7 100%);
+    background-clip: content-box;  
+    margin: 120px 150px 120px 150px;
+
+
+     
+}
+
+.Newsletter-title img{
+      margin-top:120px;
+      margin-left: 480px;
+}
+.subscribe1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+.input-btn2{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      margin-bottom: 70px;
+     
+      
+}
+.btn-default{
+      background-color: #FF0000;
+      color: snow;
+      border: 0px 50px 50px 0px;
+      width: 140px;
+      border-radius: 5px;
+      border-style: groove;
+}
+/* newsletter ends here */
+
+/* footer style starts here  */
+
+/* footer style ends here */

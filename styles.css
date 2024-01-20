@@ -130,7 +130,8 @@ margin-bottom: 10px;
     margin-left: 10px;
     margin-top: 40px;
     padding: 10px;
-    margin-right: 300px;
+    margin-right: 200px;
+
 }
 
      /* event-time css styles*/ 
@@ -199,6 +200,7 @@ text-transform: capitalize;
       margin-bottom: 20px;
       background-color: #FF0000;
       color: #FFFFFF;
+      border-radius: 5.5px;
 
 
 }
